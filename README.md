@@ -58,6 +58,20 @@ Query (Type `exit`, `quit`, `q` to quit): Get po in kube-system ns
 
 4. You would get the response similar like:
 
+```bash
+Here are the pods in the `kube-system` namespace:
+
+- coredns-7db6d8ff4d-lz4s8
+- coredns-7db6d8ff4d-qbgvc
+- etcd-test-control-plane
+- kindnet-cnjm6
+- kube-apiserver-test-control-plane
+- kube-controller-manager-test-control-plane
+- kube-proxy-v647r
+- kube-scheduler-test-control-plane
+- sealed-secrets-controller-67767c668-dz4bj
+```
+
 ## Project Structure
 
 ```bash
