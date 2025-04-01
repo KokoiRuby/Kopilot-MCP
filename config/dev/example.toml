@@ -1,6 +1,7 @@
 # Backup this file and rename it to config.toml
 [mcp]
 name = "Kopilot"
+log_level = "INFO"
 
 [server.llm]
 model_provider = ""
