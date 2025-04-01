@@ -1,0 +1,15 @@
+[project]
+name = "Kopilot-MCP"
+version = "0.1.0"
+description = "A MCP client/server enpower interaction with Kubernetes resources using natural language."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dynaconf>=3.2.10",
+    "kubernetes>=28.1.0",
+    "langchain-core>=0.3.49",
+    "langchain[openai]>=0.3.21",
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.6.0",
+    "openai>=1.69.0",
+]

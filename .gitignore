@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Misc
+.idea/
+examples/
+draft.ipynb
+mcp_client_*.py
+config/dev/config.toml
